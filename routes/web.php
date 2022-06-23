@@ -24,4 +24,17 @@ Route::get('/', function () {
     $socials = config('socials');
 
     return view('home', ['comics' => $comics, 'prefooters' => $preFooters, 'menus' => $menus, 'socials' => $socials]);
-});
+})->name('home');
+
+Route::get('/comics', function () {
+
+    $comics = config('comics');
+
+    $preFooters = config('prefooters');
+
+    $menus = config('menus');
+
+    $socials = config('socials');
+
+    return view('comics', ['comics' => $comics, 'prefooters' => $preFooters, 'menus' => $menus, 'socials' => $socials]);
+})->name('comics');

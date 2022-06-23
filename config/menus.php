@@ -11,18 +11,20 @@ class MenuLink{
 	}
 }
 
+// Non avendo tutte le viste ho impostato i link dei menù tutti uguali ed questo causa l aggiunta della classe active
+
 return [
 
-    new MenuLink("Characters","#"),
-    new MenuLink("Comics","#"),
-    new MenuLink("Movies","#"),
-    new MenuLink("TV","#"),
-    new MenuLink("Games","#"),
-    new MenuLink("Collectibles","#"),
-    new MenuLink("Videos","#"),
-    new MenuLink("Fans","#"),
-    new MenuLink("News","#"),
-    new MenuLink("Shop","#")
+    new MenuLink("Home","home"),
+    new MenuLink("Comics","comics"),
+    new MenuLink("Movies","home"),
+    new MenuLink("TV","home"),
+    new MenuLink("Games","home"),
+    new MenuLink("Collectibles","home"),
+    new MenuLink("Videos","home"),
+    new MenuLink("Fans","home"),
+    new MenuLink("News","home"),
+    new MenuLink("Shop","home")
 
 ];
 

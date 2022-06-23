@@ -2,11 +2,8 @@
 
 @section('content')
 
-@include('partials.jumbotron')
-
 <main>
     <div class="container">
-        <div class="title_box">Current Series</div>
             <div class="container_card">
 
                 @foreach ( $comics as $comic )
@@ -26,9 +23,6 @@
 
                 @endforeach
             </div>
-
-        <div class="load_more_container">
-            <button class="btn_load_more">Load More</button>
         </div>
     </div>
 </main>
