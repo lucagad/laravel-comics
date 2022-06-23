@@ -1,0 +1,31 @@
+
+.section_bg{
+    @include flex-cnt();
+    background-color: $primary-color;
+    height: 150px
+  }
+
+  .card_container{
+    @include flex-sbtw();
+
+    .card_box{
+      @include flex-sbtw();
+
+      a{
+        @include flex-cnt();
+        flex-wrap: wrap;
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        span{
+          padding: 10px 25px;
+        }
+
+        img{
+          width: 50px;
+          height: auto;
+        }
+      }
+
+    }
+  }

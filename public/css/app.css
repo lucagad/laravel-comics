@@ -39,3 +39,117 @@ header nav ul li a {
 header nav ul li a:hover {
   color: #0082f9;
 }
+
+.section_bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0082f9;
+  height: 150px;
+}
+
+.card_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card_container .card_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card_container .card_box a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.card_container .card_box a span {
+  padding: 10px 25px;
+}
+.card_container .card_box a img {
+  width: 50px;
+  height: auto;
+}
+
+footer {
+  background-color: #303030;
+  height: 100%;
+  width: 100%;
+}
+
+.footer_bg_image {
+  background-image: url("/img/footer-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.footer_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: aliceblue;
+  width: 100%;
+  height: auto;
+  background-image: url("/img/dc-logo-bg.png");
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 50%;
+}
+.footer_top .col_left {
+  width: 100%;
+}
+.footer_top .col_title {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #ffffff;
+  padding-bottom: 10px;
+}
+.footer_top ul {
+  list-style: none;
+  padding: 0;
+}
+.footer_top ul li {
+  text-decoration: none;
+}
+.footer_top ul li a {
+  color: #959595;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 12px;
+}
+
+.footer_bottom {
+  padding: 35px 0;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer_bottom .sign_up {
+  background-color: transparent;
+  color: #ffffff;
+  border: 2px solid #0082f9;
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+.footer_bottom .follow_us_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer_bottom .follow_us_box span {
+  color: #0082f9;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 600;
+  padding: 0 25px;
+}
+.footer_bottom .follow_us_box .social_icons a {
+  padding: 0 10px;
+}

@@ -15,6 +15,8 @@
 
     @yield('content')
 
+    @include('partials.prefooter')
+
     @include('partials.footer')
 
 </body>
