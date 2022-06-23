@@ -5,6 +5,8 @@
 @import '_general';
 
 
-@import '_header';
-@import '_prefooter';
-@import '_footer';
+@import 'partials_style/header';
+@import 'partials_style/jumbotron';
+@import 'partials_style/main';
+@import 'partials_style/prefooter';
+@import 'partials_style/footer';

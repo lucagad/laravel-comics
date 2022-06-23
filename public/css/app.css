@@ -40,6 +40,109 @@ header nav ul li a:hover {
   color: #0082f9;
 }
 
+.jumbotron {
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  overflow: hidden;
+  background-image: url("/img/jumbotron.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: #1c1c1c;
+  color: white;
+  position: relative;
+}
+main .title_box {
+  font-size: 25px;
+  position: absolute;
+  top: -25px;
+  left: 10%;
+  margin: 0;
+  padding: 10px 25px 8px 25px;
+  line-height: 0.9;
+  color: #fff;
+  background-color: #0082f9;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+main .container_card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 25px;
+}
+main .load_more_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+main .btn_load_more {
+  background-color: #0082f9;
+  color: #ffffff;
+  border: 2px solid #0082f9;
+  padding: 10px 35px;
+  text-transform: uppercase;
+}
+
+.card_custom {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: calc(16.6666666667% - 2rem);
+  height: 100%;
+  margin: 1rem;
+  background-color: transparent;
+}
+.card_custom:hover .image_container .info_layer {
+  display: flex;
+}
+.card_custom:hover h5 {
+  text-decoration: underline;
+  color: #0082f9;
+}
+.card_custom .image_container {
+  width: 100%;
+  height: 180px;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+}
+.card_custom .image_container img {
+  width: 100%;
+}
+.card_custom .image_container .info_layer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 180px;
+  background-color: rgba(0, 130, 249, 0.8);
+  color: white;
+}
+.card_custom h5 {
+  padding-top: 10px;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
 .section_bg {
   display: flex;
   justify-content: center;

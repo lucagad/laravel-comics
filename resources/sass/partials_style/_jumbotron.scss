@@ -1,0 +1,8 @@
+.jumbotron{
+    height: 400px;
+    @include flex-start();
+    overflow: hidden;
+    background-image: url('/img/jumbotron.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}

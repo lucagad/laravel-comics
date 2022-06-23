@@ -24,7 +24,7 @@
         </a>
 
         <a href="#">
-            <img src="{{asset('img/buy-dc-power-visa.png')}}" alt="DC Power Visa">
+            <img src="{{asset('img/buy-dc-power-visa.svg')}}" alt="DC Power Visa">
             <span>DC Power Visa</span>
         </a>
 
