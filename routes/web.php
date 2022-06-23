@@ -17,5 +17,11 @@ Route::get('/', function () {
 
     $comics = config('comics');
 
-    return view('home', ['comics' => $comics]);
+    $preFooters = config('prefooters');
+
+    $menus = config('menus');
+
+    $socials = config('socials');
+
+    return view('home', ['comics' => $comics, 'prefooters' => $preFooters, 'menus' => $menus, 'socials' => $socials]);
 });

@@ -65,11 +65,10 @@
         <div class="follow_us_box">
           <span>Follow us</span>
           <div class="social_icons">
-            <a href="#"><img src="{{asset('img/footer-facebook.png')}}" alt="Facebook"></a>
-            <a href="#"><img src="{{asset('img/footer-twitter.png')}}" alt="Twitter"></a>
-            <a href="#"><img src="{{asset('img/footer-youtube.png')}}" alt="YouTube"></a>
-            <a href="#"><img src="{{asset('img/footer-pinterest.png')}}" alt="Pinterest"></a>
-            <a href="#"><img src="{{asset('img/footer-periscope.png')}}" alt="Periscope"></a>
+
+            @foreach ($socials as $social )
+                <a href="{{$social->link}}"><img src="{{asset($social->image)}}" alt="{{$social->title}}"></a>
+            @endforeach
           </div>
 
         </div>
