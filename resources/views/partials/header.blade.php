@@ -1,7 +1,7 @@
 <header class="container-lg">
 
     <div class="logo">
-        <a href="#"><img src="{{asset('img/dc-logo.png')}}" alt="DC Logo"></a>
+        <a href="{{route('home')}}"><img src="{{asset('img/dc-logo.png')}}" alt="DC Logo"></a>
     </div>
 
     <nav>
